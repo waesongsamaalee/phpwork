@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เครื่องคิดเลข</title>
+    <style>
+
+    div{ 
+      
+      background: linear-gradient(120deg, #be0985, #11a850);
+            padding: 12px 10px;
+            margin: 180px  620px;
+            display: inline-block;
+            width: 400px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            
+    }
+    
+    input[type=text]{
+            width: 70%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }input[type=submit]{
+            width: 70%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: none;
+            border-radius: 4px;
+            box-sizing: border-box;
+            background: linear-gradient(120deg, #cf7fcf, #2eb89a, rgb(133, 107, 38),#c00df7, rgba(158, 74, 92, 0.533), rgb(182, 130, 19),#751233b9),#803473;
+        }
+        
+
+
+    </style>
+</head>
+<body  style="
+background: linear-gradient(120deg, #150b75, #8352adb9, #1fccaf ,#ce872a,rgba(233, 64, 13, 0.267));
+height: 100vh;
+">
+    <div class="container" align="center">
+        <h1  style="color:rgb(193, 164, 196)">เครื่องคิดเลข</h1>
+
+    <form action="calculator.php" method="post">
+        <label for="">เลขตัวที่ 1</label>
+        <input type="number" name="num1" > <br><br>
+
+        <label for="">เลขตัวที่ 2</label>
+        <input type="number" name="num2" > <br><br>
+
+        <input type="submit" value="+" name="op"  style="width:80px; background-color:aqua;">
+        <input type="submit" value="-" name="op"  style="width:80px; background-color:chartreuse;">
+        <input type="submit" value="x" name="op"  style="width:80px; background-color:rgb(202, 109, 174),rgba(38, 167, 38, 0.333);"><br><br>
+        <input type="submit" value="/" name="op"  style="width:80px; background-color:gold ;">
+        <input type="submit" value="xX" name="op" style="width:80px; background-color:rgb(58, 167, 64) ;">
+        <input type="submit" value="%" name="op"  style="width:80px; background-color:rgb(143, 238, 65) ;">
+
+    </form>
+</div>
+
+</body>
+</html>
