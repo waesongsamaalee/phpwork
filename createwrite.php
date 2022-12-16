@@ -16,5 +16,4 @@
     echo fread($file4, filesize("pattani.txt"));
     fclose($file4);
 
-
 ?>
