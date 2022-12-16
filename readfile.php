@@ -1,0 +1,8 @@
+<?php
+
+
+    readfile('waesong.txt');
+
+
+
+?>
